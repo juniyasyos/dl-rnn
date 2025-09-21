@@ -1,41 +1,46 @@
-# RNN Time Series Project
+# RNN & LSTM Project
 
-A structured project for time series prediction using Recurrent Neural Networks (RNN) with Keras/TensorFlow.
+Project praktikum untuk belajar Recurrent Neural Networks (RNN) dan LSTM.
 
-## Project Structure
+## 🚀 Cara Pakai
 
-```
-rnn/
-├── data/                   # Data files and datasets
-├── notebooks/             # Jupyter notebooks for analysis
-├── src/                   # Source code modules
-├── models/               # Saved model files
-├── README.md            # This file
-└── requirements.txt     # Python dependencies
+```bash
+# Aktifkan environment
+source .venv/bin/activate
+
+# Jalankan jupyter
+jupyter notebook
 ```
 
-## Features
+## 📁 File yang Tersedia
 
-- **Text Time Series**: Word/character sequence prediction using LSTM/GRU
-- **Stock Price Prediction**: Financial time series forecasting
-- **Dummy Data Generation**: Synthetic datasets for experimentation
-- **Modular Design**: Clean separation of data, models, and utilities
+- `simple_rnn_word_prediction.ipynb` - SimpleRNN untuk text prediction
+- `text_sequence_prediction.ipynb` - LSTM untuk text prediction  
+- `stock_price_prediction.ipynb` - RNN untuk prediksi stock
 
-## Usage
+## 📝 ATURAN ABSENSI - BUAT LAPORAN
 
-1. Install dependencies: `pip install -r requirements.txt`
-2. Run the main notebook: `notebooks/rnn_time_series_analysis.ipynb`
-3. Explore individual models in the `src/` directory
+**Deadline: 22 September 2025, jam 8:00**
 
-## Models
+### Format Laporan (BEBAS)
+Pilih salah satu:
+- **Word/PDF** - Screenshot + penjelasan singkat
+- **PowerPoint** - 5-10 slide presentasi
+- **Video** - Record screen 5-10 menit  
+- **Notebook** - Copy notebook + tambah komentar
 
-- **Text RNN**: LSTM-based model for word sequence prediction
-- **Stock RNN**: GRU-based model for stock price forecasting
+### Yang Wajib Ada:
+1. **Bukti** jalankan salah satu notebook (screenshot)
+2. **Pemahaman** RNN/LSTM dengan bahasa sendiri
+3. **Perbandingan** SimpleRNN vs LSTM mana yang lebih baik
+4. **Kesimpulan** apa yang dipelajari dari project ini
 
-## Dependencies
+### Tips:
+- Cukup jalankan 1 notebook
+- Tulis pemahaman bebas, tidak harus formal
+- Screenshot hasil training (grafik/angka accuracy)
+- Submit sebelum jam 8 pagi
 
-- TensorFlow/Keras
-- NumPy
-- Pandas
-- Matplotlib
-- Scikit-learn
+---
+
+**Selamat mengerjakan! 🎯**
